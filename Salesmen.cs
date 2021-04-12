@@ -14,7 +14,7 @@ public abstract class Salesmen {
        this._lastName = lastName;
    } 
 
-   public abstract void Sell(){
-       Console.WriteLine(string.Format("Hi my name is {0} I would recommend you to buy this car", this.FullName));
+   public virtual void Sell() {
+    Console.Write(String.Format("Hi my name is {0}. I would recommend you buy this item.", this.FullName));
    }
 }

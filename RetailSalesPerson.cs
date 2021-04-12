@@ -1,10 +1,6 @@
-
+using System;
 public class RetailSalesPerson : Salesmen{
-        public RetailSalesPerson(string firstName, string lastName) : base(firstName, lastName){
-        
-    }
-    public override void Sell()
+    public RetailSalesPerson(string firstName, string lastName) : base(firstName, lastName)
     {
-        throw new System.NotImplementedException();
     }
 }
