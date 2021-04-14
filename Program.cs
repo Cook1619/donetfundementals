@@ -22,9 +22,9 @@ namespace OOP
         {
             result += num;
         }
-        var average = result / grades.Count;
+        result /= grades.Count;
         
-        Console.WriteLine("The average grade is {0}", Math.Round(average, 2));
+        Console.WriteLine($"The average grade is {result:N1}");
         }
     }
 }
